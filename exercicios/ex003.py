@@ -1,0 +1,1 @@
+#Crie um programa que faça a multiplicação de dois números e traga a saída se o resultado é par ou impar.

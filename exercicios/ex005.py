@@ -1,0 +1,1 @@
+#Crie um algoritmo que receba o nome de aluno e 3 notas de provas e tenha como saída a seguinte frase, "o nome do aluno e a média."

@@ -1,0 +1,1 @@
+#Crie um programa que receba um nome e uma idade, mostre os dois na tela e posteriosmente diga se a pessoa quer se a pessoa deve se alistar ou não.

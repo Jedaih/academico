@@ -1,0 +1,1 @@
+#Crie um algoritmo que receba 2 números e tenha como saída a multiplicação deles, e o resultado elevado a potência (2)

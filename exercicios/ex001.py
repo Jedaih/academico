@@ -1,0 +1,1 @@
+#Crie um programa  que receba um nome, uma idade e print na tela os valores
