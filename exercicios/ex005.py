@@ -4,5 +4,10 @@ nota1 = float(input('Digite a nota 1: '))
 nota2 = float(input('Digite a nota 2: '))
 nota3 = float(input('Digite a nota 3: '))
 media = (nota1 + nota2 + nota3) / 3
-aprovado = media >= 6
-print(f'o {nome} teve como média: {media} e ele foi: {aprovado}')
+if (media >= 6):
+    
+    print(f'Aluno aprovado')
+else:
+    print(f'Aluno Reprovado')
+
+print(f'o {nome} teve como média: {media}')
