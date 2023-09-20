@@ -6,3 +6,20 @@
 #Dica: usar biblioteca Random (comando) import random usar and, or, not
 
 #Ramdom choice ([0,1,2,3,4,5,6,7,8,9,10])
+import random
+
+print('*DIGITE MAIUSCULO*')
+escjogador = str(input('Escolha [PAR] ou [IMPAR]: '))
+numjogador = int(input('Digite o seu número: '))
+numcomp = random.choice ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+soma = numjogador + numcomp
+if soma %2 == 0 and escjogador == 'PAR':
+    print(f'Você escolheu: {escjogador} e o número: {numjogador}, a máquina jogou {numcomp}: Você venceu. ')
+elif soma %2 == 1 and escjogador == 'PAR':
+    print(f'Você escolheu: {escjogador} e o número: {numjogador}, a máquina jogou {numcomp}: Você perdeu. ')
+elif soma %2 == 0 and escjogador == 'IMPAR':
+    print(f'Você escolheu: {escjogador} e o número: {numjogador}, a máquina jogou {numcomp}: Você perdeu ')
+elif soma %2 == 1 and escjogador =='IMPAR':
+    print(f'Você escolheu: {escjogador} e o número: {numjogador}, a máquina jogou {numcomp}: Você venceu ')
+
+    
